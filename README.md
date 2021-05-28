@@ -3,7 +3,7 @@ This program is a wrapper around the [Wav2Lip](https://github.com/Rudrabha/Wav2L
 
 [![sample](https://github.com/utkarsh-21st/Wav2Lip-Django/blob/master/sample/sample.png "sample")](https://github.com/utkarsh-21st/Wav2Lip-Django/blob/master/sample/sample.png "sample")
 
-### Setup?
+### Setup
 - Create a new virtual environment, clone the project and cd into it.
 - Install dependencies
 ```shell
