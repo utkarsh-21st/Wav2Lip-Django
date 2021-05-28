@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+<center>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="btn btn-primary">Start</button>
+    </form>
+</center>
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+<br>
+</body>
+<head>
+    <meta charset="UTF-8">
+    <title>Upload Video</title>
+    <center>
+        {% if not download %}
+        <i class="fa fa-download"></i>
+        <input type="submit" value="Download" disabled>
+        {% else %}
+        {% load static %}
+        <p>Done!</p>
+        <i class="fa fa-download"></i>
+        <a href="{% static 'result.mp4' %}"
+           download="result.mp4" style="padding: 5px;">
+            <input type="submit" value="Download">
+        </a>
+        {% endif %}
+
+    </center>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+</html>
