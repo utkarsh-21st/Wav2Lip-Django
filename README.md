@@ -4,6 +4,7 @@ This program is a wrapper around the Wav2Lip algorithm. It uses Django to create
 [![sample](https://github.com/utkarsh-21st/Wav2Lip-Django/blob/master/sample/sample.png "sample")](https://github.com/utkarsh-21st/Wav2Lip-Django/blob/master/sample/sample.png "sample")
 
 ### Setup
+- Make sure you have your GPU enabled
 - Create a new virtual environment, clone the project and cd into it.
 - Install dependencies
 ```shell
