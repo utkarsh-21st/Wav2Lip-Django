@@ -1,5 +1,5 @@
 # Wav2Lip-Django
-This program is a wrapper around the [Wav2Lip](https://github.com/Rudrabha/Wav2Lip "Wav2Lip") algorithm. It uses Django to create a simple GUI.
+This program is just a wrapper around the [Wav2Lip](https://github.com/Rudrabha/Wav2Lip "Wav2Lip") algorithm. It uses Django to create a simple GUI.
 
 [![sample](https://github.com/utkarsh-21st/Wav2Lip-Django/blob/master/sample/sample.png "sample")](https://github.com/utkarsh-21st/Wav2Lip-Django/blob/master/sample/sample.png "sample")
 
